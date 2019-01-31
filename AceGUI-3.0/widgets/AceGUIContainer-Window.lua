@@ -7,10 +7,6 @@ local pairs, assert, type = pairs, assert, type
 local PlaySound = PlaySound
 local CreateFrame, UIParent = CreateFrame, UIParent
 
--- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
--- List them here for Mikk's FindGlobals script
--- GLOBALS: GameFontNormal
-
 ----------------
 -- Main Frame --
 ----------------

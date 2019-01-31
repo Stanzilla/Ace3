@@ -37,11 +37,6 @@ local error, assert = error, assert
 -- WoW APIs
 local _G = _G
 
--- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
--- List them here for Mikk's FindGlobals script
--- GLOBALS: LibStub, SELECTED_CHAT_FRAME, DEFAULT_CHAT_FRAME
-
-
 local L = setmetatable({}, {	-- TODO: replace with proper locale
 	__index = function(self,k) return k end
 })

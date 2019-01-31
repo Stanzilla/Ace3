@@ -28,12 +28,6 @@ local pairs, next, select, type, unpack, wipe, ipairs = pairs, next, select, typ
 local tostring, tonumber = tostring, tonumber
 local math_min, math_max, math_floor = math.min, math.max, math.floor
 
--- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
--- List them here for Mikk's FindGlobals script
--- GLOBALS: NORMAL_FONT_COLOR, GameTooltip, StaticPopupDialogs, ACCEPT, CANCEL, StaticPopup_Show
--- GLOBALS: PlaySound, GameFontHighlight, GameFontHighlightSmall, GameFontHighlightLarge
--- GLOBALS: CloseSpecialWindows, InterfaceOptions_AddCategory, geterrorhandler
-
 local emptyTbl = {}
 
 --[[

@@ -40,12 +40,6 @@ local math_max = math.max
 -- WoW APIs
 local UIParent = UIParent
 
--- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
--- List them here for Mikk's FindGlobals script
--- GLOBALS: geterrorhandler, LibStub
-
---local con = LibStub("AceConsole-3.0",true)
-
 AceGUI.WidgetRegistry = AceGUI.WidgetRegistry or {}
 AceGUI.LayoutRegistry = AceGUI.LayoutRegistry or {}
 AceGUI.WidgetBase = AceGUI.WidgetBase or {}

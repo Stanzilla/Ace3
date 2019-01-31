@@ -16,10 +16,6 @@ local select, tremove, unpack, tconcat = select, table.remove, unpack, table.con
 -- WoW APIs
 local CreateFrame, UIParent = CreateFrame, UIParent
 
--- Global vars/functions that we don't upvalue since they might get hooked, or upgraded
--- List them here for Mikk's FindGlobals script
--- GLOBALS: GameTooltip, FONT_COLOR_CODE_CLOSE
-
 -- Recycling functions
 local new, del
 do
