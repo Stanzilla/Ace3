@@ -267,7 +267,7 @@ end
 local function Dragger_OnMouseUp(frame)
 	local treeframe = frame:GetParent()
 	local self = treeframe.obj
-	local frame = treeframe:GetParent()
+	frame = treeframe:GetParent()
 	treeframe:StopMovingOrSizing()
 	--treeframe:SetScript("OnUpdate", nil)
 	treeframe:SetUserPlaced(false)
